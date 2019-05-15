@@ -29,7 +29,7 @@ client.on_subscribe = on_subscribe
 client.on_log = on_log
 # user name has to be called before connect - my notes.
 client.username_pw_set("smjlshlt", "6r_8MdvcwVy5")
-client.connect('m24.cloudmqtt.com',13123, 60)
+client.connect("m24.cloudmqtt.com",13123, 60)
 client.loop_start()
 index=0
 while index in range(0,5):

@@ -4,7 +4,7 @@ from flask import jsonify
 from flask import render_template
 from sensor import GetValueBoolean, GetDistance, GetTemp, RealTime, RFID, X, UVlight
 from displayoled import displaytextoled #displaytextoled("FUCK THIS SHIT \n I am out")
-from flask_cors import CORS, cross_origin
+from `flask_cors import CORS, cross_origin
 import paho.mqtt.client as mqtt
 #import urllib.parse
 import time
